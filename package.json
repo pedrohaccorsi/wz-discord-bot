@@ -1,0 +1,27 @@
+{
+  "name": "wz-discord-bot",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/main.ts",
+    "start:dev": "bun --watch src/main.ts"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bun": "latest",
+    "@types/lodash": "^4.17.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@nestjs/mongoose": "^10.0.5",
+    "@nestjs/platform-express": "^10.3.7",
+    "@nestjs/schedule": "^4.0.1",
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.3.0",
+    "node-html-parser": "^6.1.13"
+  }
+}
